@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-content>
-      <AppHeader />
+      <AppHeader/>
     </v-content>
   </v-app>
 </template>
@@ -13,7 +13,7 @@ export default {
   name: "App",
 
   components: {
-    AppHeader
+    AppHeader,
   },
 
   data: () => ({
@@ -21,3 +21,8 @@ export default {
   })
 };
 </script>
+
+<style lang="scss">
+@import '~vuetify/src/styles/styles.sass';
+body{ font-family: $body-font-family;}
+</style>
