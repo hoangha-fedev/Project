@@ -40,6 +40,13 @@ export default {
 					commit('SET_PROCESSING', false);
 					commit('SET_ERROR', error.message);
 				});
+		},
+		STATE_CHANGED({commit}, payload) {
+			if(payload) {
+				commit('SET_USER', payload.uid)
+			} else {
+				commit('UNSET_USER')
+			}
 		}
 	},
 	getters: {

@@ -54,7 +54,7 @@ export default {
   watch:{
     isUserAuthenticated(val) {
       if(val === true) {
-        this.$routes.push("/")
+        this.$router.push("/")
       }
     }
   },
