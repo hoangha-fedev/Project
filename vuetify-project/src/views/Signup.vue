@@ -8,7 +8,7 @@
           </v-toolbar>
           <v-card-text>
             <v-alert :value="error" type="warning">{{error}}</v-alert>
-            <v-form v-model="valid">
+            <v-form>
               <v-text-field
                 label="Email"
                 name="login"
@@ -33,7 +33,7 @@
           </v-card-text>
           <v-card-actions>
             <v-spacer />
-            <v-btn color="primary" @click.prevent="signup" :disabled="processing" || !valid>Sign up</v-btn>
+            <v-btn color="primary" @click.prevent="signup" :disabled="processing">Sign up</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
