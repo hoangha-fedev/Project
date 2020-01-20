@@ -3,226 +3,134 @@ export default {
 		books: [
 			{
 				id: '1',
-				title: 'Harry Potter und der Stein der Weisen',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
+				title: 'Mình yêu nhau bình yên thôi',
+				description: 'Đinh Hương - Hà Anh Tuấn',
 				imageId: '1',
-				imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
-				level: [ 'B2', 'C1' ],
+				imageUrl:'https://photo-zmp3.zadn.vn/covers/1/b/1b352fa8373feb08c631eb7a4f7cfb02_1494299663.jpg',
+				level: [ 'V-Pop', 'Easy' ],
+				views: "7,553,824",
 				rating: 4,
 				ratingsCount: 100,
-				youtube_playlist_id: '1',
+				youtube_playlist_id: 'bkQamlyEVLw',
 				parts: [
 					{
 						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
+						title: 'Thông tin chi tiết',
+						youtube_id: 'bkQamlyEVLw'
 					}
 				]
 			},
 			{
 				id: '2',
-				title: 'Harry Potter und der Stein der Weisen - 2',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
+				title: 'Có tất cả nhưng thiếu anh',
+				description: 'Erik',
 				imageId: '2',
-				level: [ 'B1', 'C2' ],
+				imageUrl:'https://i.ytimg.com/vi/LSjFMH1tsFc/maxresdefault.jpg',
+				level: [ 'V-Pop', 'Medium' ],
+				views: "48,332,214",
 				rating: 4.5,
 				ratingsCount: 40,
-				youtube_playlist_id: '2',
+				youtube_playlist_id: 'LSjFMH1tsFc',
 				parts: [
 					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
 						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
+						title: 'Thông tin chi tiết',
+						youtube_id: 'LSjFMH1tsFc'
 					}
 				]
 			},
 			{
 				id: '3',
-				title: 'Harry Potter und der Stein der Weisen - 3',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
+				title: 'Hết thương cạn nhớ',
+				description: 'Đức Phúc',
 				imageId: '3',
-				level: [ 'A2', 'C1' ],
+				imageUrl:'https://i.ytimg.com/vi/g4KFkVQu-7g/maxresdefault.jpg',
+				level: [ 'V-Pop', 'Easy' ],
+				views:"49,060,949",
 				rating: 5,
 				ratingsCount: 80,
-				youtube_playlist_id: '3',
+				youtube_playlist_id: 'DZDYZ9nRHfU',
 				parts: [
 					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
 						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
+						title: 'Thông tin chi tiết',
+						youtube_id: 'DZDYZ9nRHfU'
 					}
 				]
 			},
 			{
 				id: '4',
-				title: 'Harry Potter und der Stein der Weisen - 4',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
+				title: 'Giá như cô ấy chưa xuất hiện',
+				description: 'Miu Lê',
 				imageId: '4',
-				level: [ 'A1', 'C2' ],
+				imageUrl:'https://i.ytimg.com/vi/c0cWr5sYP9s/hqdefault.jpg',
+				level: [ 'V-Pop', 'Easy' ],
+				views:"19,861,855",
 				rating: 3.5,
 				ratingsCount: 100,
-				youtube_playlist_id: '4',
+				youtube_playlist_id: 'c0cWr5sYP9s',
 				parts: [
 					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
 						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
+						title: 'Thông tin chi tiết',
+						youtube_id: 'c0cWr5sYP9s'
 					}
 				]
 			},
 			{
 				id: '5',
-				title: 'Harry Potter und der Stein der Weisen - 5',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
+				title: 'Thuận theo ý trời',
+				description: 'Bùi Anh Tuấn',
 				imageId: '5',
-				level: [ 'A1', 'C1' ],
+				imageUrl:'https://i.ytimg.com/vi/b1UtffzfG64/maxresdefault.jpg',
+				level: [ 'V-Pop', 'Difficult' ],
+				views:"12,966,675",
 				rating: 3,
 				ratingsCount: 70,
-				youtube_playlist_id: '5',
+				youtube_playlist_id: 'b1UtffzfG64',
 				parts: [
 					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
+						id: '5',
+						title: 'Thông tin chi tiết',
+						youtube_id: 'b1UtffzfG64'
 					}
 				]
 			},
 			{
 				id: '6',
-				title: 'Harry Potter und der Stein der Weisen - 6',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
+				title: "I'm not her",
+				description: 'Clara Mae',
 				imageId: '6',
-				level: [ 'A2', 'C2' ],
+				imageUrl:'https://i.ytimg.com/vi/UOb172nPB2E/maxresdefault.jpg',
+				level: [ 'US-UK', 'Medium' ],
+				views:"3,532,659",
 				rating: 4.5,
 				ratingsCount: 80,
-				youtube_playlist_id: '6',
+				youtube_playlist_id: 'iUNxOzxPEVI',
 				parts: [
 					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
+						id: '6',
+						title: 'Thông tin chi tiết',
+						youtube_id: 'iUNxOzxPEVI'
 					}
 				]
 			},
 			{
 				id: '7',
-				title: 'Harry Potter und der Stein der Weisen - 7',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
+				title: 'Pursuing The Happiness(행복을 찾아서)',
+				description: 'LeeSSang ft Jo Hyuna of Urban Zakapa',
 				imageId: '7',
-				level: [ 'A1', 'C1' ],
+				imageUrl:'https://i.ytimg.com/vi/le0GI8FtB2o/maxresdefault.jpg',
+				level: [ 'K-Pop', 'Difficult' ],
+				views: "4,178,690",
 				rating: 3.5,
 				ratingsCount: 50,
-				youtube_playlist_id: '7',
+				youtube_playlist_id: 'le0GI8FtB2o',
 				parts: [
 					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
+						id: '7',
+						title: 'Thông tin chi tiết',
+						youtube_id: 'le0GI8FtB2o'
 					}
 				]
 			}
@@ -232,88 +140,224 @@ export default {
             {
                 bookId: "1",
                 bookPartId: '1',
-                bookTitle: "Harry Potter und der Stein der Weisen - 1",
-                partTitle: "Chapper 1",
-                youtube_id: "wP2OdJizkWA",
+                bookTitle: "Mình yêu nhau bình yên thôi",
+                partTitle: "Đinh Hương - Hà Anh Tuấn",
+                youtube_id: "bkQamlyEVLw",
                 content: [
                     {
                         sentences: [
                             {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
+                                origText: "Mang tình yêu đi khắp thành phố thật xa hoa",
+                                transText: "Hiện tại chưa có bản dịch"
                             },
                             {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
+                                origText: "Đến cả những miền quê bình yên ở nơi xa",
+                                transText: "Hiện tại chưa có bản dịch"
                             },
                             {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
-                            }
+                                origText: "Vai tựa vai và đôi bàn tay nắm xiết chặt… mãi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Yêu thương đong đầy những tháng năm",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Có tình yêu nào như tình yêu của đôi ta",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Yêu là sẽ bỏ tất cả để cùng đi xa",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Đi tìm chân trời nơi mình sẽ gọi tên 'Hạnh Phúc'",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Mang theo vui buồn ta mỉm cười.",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Mình yêu nhau, yêu nhau bình yên thôi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Mình nói với nhau bao điều rồi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Ngày mai nắng lên, bình minh sẽ tới",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Tay nắm tay chẳng cách rời",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Mình yêu nhau, yêu nhau bình yên thôi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Mình nói cảm ơn với gió trời",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Để những ước mơ tự do bay mãi xa",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Tay nắm tay về muôn nơi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Qua ngày mưa là những ngày nắng vàng an nhiên",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Môi kề môi và đôi bàn tay vẫn xiết chặt…mãi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Bên nhau câu chuyện trò sớm hôm",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Có tình yêu nào như tình yêu tuổi thanh xuân",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Yêu bằng tất cả chân thành khát vọng xuân xanh",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Yêu là khi mình sẽ cùng nhau nhìn chung một hướng",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Qua bao vui buồn vẫn mỉm cười.",
+                                transText: "Hiện tại chưa có bản dịch"
+							}
                         ]
-                    },
+                    }
+                ],
+                words: []
+			},
+			{
+                bookId: "2",
+                bookPartId: '2',
+                bookTitle: "Có tất cả nhưng thiếu anh",
+                partTitle: "Erik",
+                youtube_id: "LSjFMH1tsFc",
+                content: [
                     {
                         sentences: [
                             {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
-                            },
-                            {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
-                            },
-                            {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
+                                origText: "",
+                                transText: ""
                             }
                         ]
-                    },
+                    }
+                ],
+                words: []
+			},
+			{
+                bookId: "3",
+                bookPartId: '3',
+                bookTitle: "Hết thương cạn nhớ",
+                partTitle: "Đức phúc",
+                youtube_id: "DZDYZ9nRHfU",
+                content: [
                     {
                         sentences: [
                             {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
-                            },
+                                origText: "",
+                                transText: ""
+                            }
+                        ]
+                    }
+                ],
+                words: []
+			},
+			{
+                bookId: "4",
+                bookPartId: '4',
+                bookTitle: "Giá như cô ấy chưa xuất hiện",
+                partTitle: "Miu Lê",
+                youtube_id: "c0cWr5sYP9s",
+                content: [
+                    {
+                        sentences: [
                             {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
-                            },
+                                origText: "",
+                                transText: ""
+                            }
+                        ]
+                    }
+                ],
+                words: []
+			},
+			{
+                bookId: "5",
+                bookPartId: '5',
+                bookTitle: "Thuận theo ý trời",
+                partTitle: "Bùi Anh Tuấn",
+                youtube_id: "b1UtffzfG64",
+                content: [
+                    {
+                        sentences: [
                             {
-                                origText: "Für alle, die mit einsteigen wollen in die Welt der Muggel, Magier und Zauberlehrlinge.",
-                                transText: "Harry ist Vollwaise und lebt bei seinen hartherzigen Verwandten. Bis zu seinem elften Geburtstag glaubt er, ein ganz normaler Junge zu sein. Doch ein Brief, der an diesem Tag ins Haus flattert"
+                                origText: "",
+                                transText: ""
+                            }
+                        ]
+                    }
+                ]
+			},
+			{
+                bookId: "6",
+                bookPartId: '6',
+                bookTitle: "I'm not her",
+                partTitle: "Clara Mae",
+                youtube_id: "iUNxOzxPEVI",
+                content: [
+                    {
+                        sentences: [
+                            {
+                                origText: "",
+                                transText: ""
                             }
                         ]
                     }
                 ],
                 words: [
+                    // {
+                    //     origWord: '',
+                    //     transWord: ''
+                    // }
+                ]
+			},
+			{
+                bookId: "7",
+                bookPartId: '7',
+                bookTitle: "Pursuing The Happiness(행복을 찾아서)",
+                partTitle: "LeeSSang ft Jo Hyuna of Urban Zakapa",
+                youtube_id: "le0GI8FtB2o",
+                content: [
                     {
-                        origWord: 'Hello',
-                        transWord: 'Xin Chao'
-                    },
-                    {
-                        origWord: 'Hello2',
-                        transWord: 'Xin Chao2'
-                    },
-                    {
-                        origWord: 'Hello3',
-                        transWord: 'Xin Chao3'
-                    },
-                    {
-                        origWord: 'Hello4',
-                        transWord: 'Xin Chao4'
-                    },
-                    {
-                        origWord: 'Hello5',
-                        transWord: 'Xin Chao5'
-                    },
-                    {
-                        origWord: 'Hello6',
-                        transWord: 'Xin Chao6'
-                    },
-                    {
-                        origWord: 'Hello7',
-                        transWord: 'Xin Chao7'
-                    },
+                        sentences: [
+                            {
+                                origText: "",
+                                transText: ""
+                            }
+                        ]
+                    }
+                ],
+                words: [
+                    // {
+                    //     origWord: '',
+                    //     transWord: ''
+                    // }
                 ]
             }
         ]

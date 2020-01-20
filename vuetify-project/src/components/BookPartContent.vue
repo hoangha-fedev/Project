@@ -11,12 +11,12 @@
     <div class="mt-2">
       <v-slider v-model="fontSize" :label="`font (${fontSize})`" step="1" max="30" min="10" tick-size="5"></v-slider>
       <v-tabs v-model="tabMode" color="accent" dark fixed-tabs slider-color="success">
-        <v-tab :key="'tabs'" ripple>Tab 1</v-tab>
-        <v-tab :key="'tabs-2'" ripple>Tab 2</v-tab>
+        <v-tab :key="'tabs'" ripple>Lyric 1</v-tab>
+        <v-tab :key="'tabs-2'" ripple>Lyric 2</v-tab>
         <v-tab-item :key="'tabs'">
           <div v-for="(paragraph, i) in part.content" :key="`par1${i}`">
             <span>&nbsp;&nbsp;</span>
-            <span v-for="(sentence, y) in paragraph.sentences" :key="`par1${i}sen1${y}`" :style="textStyle">
+            <div v-for="(sentence, y) in paragraph.sentences" :key="`par1${i}sen1${y}`" :style="textStyle">
               <span>{{sentence.origText}}</span>
               <v-icon :size="fontSize" @click.prevent="toggleVisibility(i, y)">help</v-icon>
               <span
@@ -24,7 +24,7 @@
                 class="success--text"
                 style="font-weight:bold"
               >{{sentence.transText}}</span>
-            </span>
+            </div>
           </div>
         </v-tab-item>
         <v-tab-item :key="'tabs-2'">
@@ -32,15 +32,15 @@
             <v-layout row wrap v-for="(paragraph, i) in part.content" :key="`par2${i}`">
               <v-flex xs6>
                 <span>&nbsp;&nbsp;</span>
-                <span v-for="(sentence, y) in paragraph.sentences" :key="`par2${i}sen2${y}_orig`" :style="textStyle">
+                <div v-for="(sentence, y) in paragraph.sentences" :key="`par2${i}sen2${y}_orig`" :style="textStyle">
                   <span>{{sentence.origText}}</span>
-                </span>
+                </div>
               </v-flex>
               <v-flex xs6>
                 <span>&nbsp;&nbsp;</span>
-                <span v-for="(sentence, y) in paragraph.sentences" :key="`par2${i}sen2${y}_trans`" :style="textStyle">
+                <div v-for="(sentence, y) in paragraph.sentences" :key="`par2${i}sen2${y}_trans`" :style="textStyle">
                   <span>{{sentence.transText}}</span>
-                </span>
+                </div>
               </v-flex>
             </v-layout>
           </v-container>

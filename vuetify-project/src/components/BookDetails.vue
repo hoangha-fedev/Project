@@ -4,7 +4,7 @@
       <v-layout row class="hidden-sm-and-down">
         <v-flex xs4 md3>
           <v-card>
-            <v-img src="https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg"></v-img>
+            <v-img :src="book.imageUrl"></v-img>
           </v-card>
           <div class="text-xs-center">
             <v-btn depressed color="white" class="mt-5">
@@ -37,7 +37,7 @@
         <v-layout row>
           <v-flex xs4 md3>
             <v-card>
-              <v-img src="https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg"></v-img>
+              <v-img :src="book.imageUrl"></v-img>
             </v-card>
           </v-flex>
           <v-flex xs8 md9>

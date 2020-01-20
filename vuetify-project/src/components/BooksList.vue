@@ -30,7 +30,8 @@ export default {
     return {
       searchTerm: null,
       level: [],
-      levels: ["A1", "A2", "B1", "B2", "C1", "C2"]
+      levels: ["Easy", "Medium", "Difficult", "N5", "N4", "N3", "N2", "N1" , "V-Pop", "US-UK", "J-Pop","C-Pop", "K-Pop"],
+      page: 1,
     };
   },
   computed: {

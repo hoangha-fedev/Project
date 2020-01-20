@@ -1,6 +1,6 @@
 <template>
   <v-container fluid grid-list-lg>
-      <span class="display-1">List</span>
+      <span class="display-1">Vocabulary</span>
     <v-data-iterator :items="words" :items-per-page.sync="itemsPerPage" row wrap>
       <template slot="item" slot-scope="props">
         <v-flex xs12 sm6 md4 lg3>
