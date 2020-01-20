@@ -4,7 +4,6 @@ import Home from '../views/Home.vue'
 import Books from '../views/Books.vue'
 import Book from '../views/Book.vue'
 import BookPart from '../views/BookPart.vue'
-import Words from '../views/Words.vue'
 import Profile from '../views/Profile.vue'
 import Signin from '../views/Signin.vue'
 import Signup from '../views/Signup.vue'
@@ -34,11 +33,6 @@ const routes = [
     name: 'bookPart',
     props: true,
     component: BookPart
-  },
-  {
-    path: '/words',
-    name: 'words',
-    component: Words
   },
   {
     path: '/profile',

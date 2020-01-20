@@ -58,12 +58,8 @@ export default {
     menuItems() {
       return this.isUserAuthenticated
         ? [
+            { title: "home", icon: "mdi-home", route: "/" },
             { title: "books", icon: "mdi-eye", route: "/books" },
-            {
-              title: "words",
-              icon: "mdi-google-circles-extended",
-              route: "/words"
-            },
             { title: "profile", icon: "mdi-account-circle", route: "/profile" }
           ]
         : [

@@ -6,6 +6,7 @@ export default {
 				title: 'Harry Potter und der Stein der Weisen',
 				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
 				imageId: '1',
+				imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
 				level: [ 'B2', 'C1' ],
 				rating: 4,
 				ratingsCount: 100,
