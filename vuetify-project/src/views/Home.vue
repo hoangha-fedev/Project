@@ -3,7 +3,11 @@
     <section>
       <v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg" height="450">
         <v-layout column align-center justify-center class="white--text">
-          <img src="https://cdn.countryflags.com/thumbs/vietnam/flag-waving-250.png" alt="" height="200px">
+          <img
+            src="https://cdn.countryflags.com/thumbs/vietnam/flag-waving-250.png"
+            alt
+            height="200px"
+          />
           <h1 class="white--text mb-2 display-2 text-xs-center">Demo</h1>
         </v-layout>
       </v-parallax>
@@ -27,9 +31,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline text-xs-center">Title</div>
                   </v-card-title>
-                  <v-card-text class="layout justify-center">
-                    Description Demo
-                  </v-card-text>
+                  <v-card-text class="layout justify-center">Description Demo</v-card-text>
                 </v-card>
               </v-flex>
               <v-flex xs12 md4>
@@ -40,9 +42,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline">Title 2</div>
                   </v-card-title>
-                  <v-card-text class="layout justify-center">
-                    description demo 2
-                  </v-card-text>
+                  <v-card-text class="layout justify-center">description demo 2</v-card-text>
                 </v-card>
               </v-flex>
               <v-flex xs12 md4>
@@ -53,9 +53,7 @@
                   <v-card-title primary-title class="layout justify-center">
                     <div class="headline text-xs-center">Title 3</div>
                   </v-card-title>
-                  <v-card-text class="layout justify-center">
-                    description demo 3
-                  </v-card-text>
+                  <v-card-text class="layout justify-center">description demo 3</v-card-text>
                 </v-card>
               </v-flex>
             </v-layout>
@@ -73,7 +71,12 @@
               </v-card-title>
               <v-card-text class="layout justify-center">
                 <v-carousel xs12 md4>
-                  <v-carousel-item v-for="(book, i) in books" :key="i" :src="book.imageUrl" @click="goToBook(book.id)">
+                  <v-carousel-item
+                    v-for="(book, i) in books"
+                    :key="i"
+                    :src="book.imageUrl"
+                    @click="goToBook(book.id)"
+                  >
                     <div class="bookTitle">{{book.title}}</div>
                   </v-carousel-item>
                 </v-carousel>
@@ -92,9 +95,7 @@
               <v-card-title class="layout justify-center" primary-title>
                 <div class="headline">Demo 3</div>
               </v-card-title>
-              <v-card-text>
-                description demo 3
-              </v-card-text>
+              <v-card-text>description demo 3</v-card-text>
               <v-list class="transparent">
                 <v-list-item>
                   <v-list-item-action>
@@ -117,266 +118,176 @@
 // @ is an alias to /src
 
 export default {
-  name: 'home',
-  compoted:{
-    books(){
-      let books = this.$store.getters.getBooks
-      if(!books) return []
+  name: "home",
+  compoted: {
+    books() {
+      let books = this.$store.getters.getBooks;
+      if (!books) return [];
 
-      const shuffled = books.sort(() => .5 - Math.random())
-      let result = []
-      if (shuffled.length < 5)
-        result = shuffled
-      else  
-        result = shuffled.slice(0,5)
-      return result
+      const shuffled = books.sort(() => 0.5 - Math.random());
+      let result = [];
+      if (shuffled.length < 5) result = shuffled;
+      else result = shuffled.slice(0, 5);
+      return result;
     }
   },
   data() {
     return {
       books: [
-			{
-				id: '1',
-				title: 'Harry Potter und der Stein der Weisen',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
-				imageId: '1',
-				imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
-				level: [ 'B2', 'C1' ],
-				rating: 4,
-				ratingsCount: 100,
-				youtube_playlist_id: '1',
-				parts: [
-					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
-					}
-				]
-			},
-			{
-				id: '2',
-				title: 'Harry Potter und der Stein der Weisen - 2',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
-        imageId: '2',
-        imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
-				level: [ 'B1', 'C2' ],
-				rating: 4.5,
-				ratingsCount: 40,
-				youtube_playlist_id: '2',
-				parts: [
-					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
-					}
-				]
-			},
-			{
-				id: '3',
-				title: 'Harry Potter und der Stein der Weisen - 3',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
-        imageId: '3',
-        imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
-				level: [ 'A2', 'C1' ],
-				rating: 5,
-				ratingsCount: 80,
-				youtube_playlist_id: '3',
-				parts: [
-					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
-					}
-				]
-			},
-			{
-				id: '4',
-				title: 'Harry Potter und der Stein der Weisen - 4',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
-        imageId: '4',
-        imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
-				level: [ 'A1', 'C2' ],
-				rating: 3.5,
-				ratingsCount: 100,
-				youtube_playlist_id: '4',
-				parts: [
-					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
-					}
-				]
-			},
-			{
-				id: '5',
-				title: 'Harry Potter und der Stein der Weisen - 5',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
-        imageId: '5',
-        imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
-				level: [ 'A1', 'C1' ],
-				rating: 3,
-				ratingsCount: 70,
-				youtube_playlist_id: '5',
-				parts: [
-					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
-					}
-				]
-			},
-			{
-				id: '6',
-				title: 'Harry Potter und der Stein der Weisen - 6',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
-        imageId: '6',
-        imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
-				level: [ 'A2', 'C2' ],
-				rating: 4.5,
-				ratingsCount: 80,
-				youtube_playlist_id: '6',
-				parts: [
-					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
-					}
-				]
-			},
-			{
-				id: '7',
-				title: 'Harry Potter und der Stein der Weisen - 7',
-				description: 'Der britisch-US-amerikanische Fantasyfilm Harry Potter und der Stein der Weisen',
-        imageId: '7',
-        imageUrl:'https://i.pinimg.com/474x/b8/65/a1/b865a148919f86e9802c50343e9b93ee.jpg',
-				level: [ 'A1', 'C1' ],
-				rating: 3.5,
-				ratingsCount: 50,
-				youtube_playlist_id: '7',
-				parts: [
-					{
-						id: '1',
-						title: 'Chappter 1',
-						youtube_id: '1'
-					},
-					{
-						id: '2',
-						title: 'Chappter 2',
-						youtube_id: '2'
-					},
-					{
-						id: '3',
-						title: 'Chappter 3',
-						youtube_id: '3'
-					},
-					{
-						id: '4',
-						title: 'Chappter 4',
-						youtube_id: '4'
-					}
-				]
-			}
-        ],
-    }
+        {
+          id: "1",
+          title: "Mình yêu nhau bình yên thôi",
+          description: "Đinh Hương - Hà Anh Tuấn",
+          imageId: "1",
+          imageUrl:
+            "https://photo-zmp3.zadn.vn/covers/1/b/1b352fa8373feb08c631eb7a4f7cfb02_1494299663.jpg",
+          level: ["V-Pop", "Easy"],
+          views: "7,553,824",
+          rating: 4,
+          ratingsCount: 100,
+          youtube_playlist_id: "bkQamlyEVLw",
+          parts: [
+            {
+              id: "1",
+              title: "Thông tin chi tiết",
+              youtube_id: "bkQamlyEVLw"
+            }
+          ]
+        },
+        {
+          id: "2",
+          title: "Có tất cả nhưng thiếu anh",
+          description: "Erik",
+          imageId: "2",
+          imageUrl: "https://i.ytimg.com/vi/LSjFMH1tsFc/maxresdefault.jpg",
+          level: ["V-Pop", "Medium"],
+          views: "48,332,214",
+          rating: 4.5,
+          ratingsCount: 40,
+          youtube_playlist_id: "LSjFMH1tsFc",
+          parts: [
+            {
+              id: "2",
+              title: "Thông tin chi tiết",
+              youtube_id: "LSjFMH1tsFc"
+            }
+          ]
+        },
+        {
+          id: "3",
+          title: "Hết thương cạn nhớ",
+          description: "Đức Phúc",
+          imageId: "3",
+          imageUrl: "https://i.ytimg.com/vi/g4KFkVQu-7g/maxresdefault.jpg",
+          level: ["V-Pop", "Easy"],
+          views: "49,060,949",
+          rating: 5,
+          ratingsCount: 80,
+          youtube_playlist_id: "DZDYZ9nRHfU",
+          parts: [
+            {
+              id: "3",
+              title: "Thông tin chi tiết",
+              youtube_id: "DZDYZ9nRHfU"
+            }
+          ]
+        },
+        {
+          id: "4",
+          title: "Giá như cô ấy chưa xuất hiện",
+          description: "Miu Lê",
+          imageId: "4",
+          imageUrl: "https://i.ytimg.com/vi/c0cWr5sYP9s/hqdefault.jpg",
+          level: ["V-Pop", "Easy"],
+          views: "19,861,855",
+          rating: 3.5,
+          ratingsCount: 100,
+          youtube_playlist_id: "c0cWr5sYP9s",
+          parts: [
+            {
+              id: "4",
+              title: "Thông tin chi tiết",
+              youtube_id: "c0cWr5sYP9s"
+            }
+          ]
+        },
+        {
+          id: "5",
+          title: "Thuận theo ý trời",
+          description: "Bùi Anh Tuấn",
+          imageId: "5",
+          imageUrl: "https://i.ytimg.com/vi/b1UtffzfG64/maxresdefault.jpg",
+          level: ["V-Pop", "Difficult"],
+          views: "12,966,675",
+          rating: 3,
+          ratingsCount: 70,
+          youtube_playlist_id: "b1UtffzfG64",
+          parts: [
+            {
+              id: "5",
+              title: "Thông tin chi tiết",
+              youtube_id: "b1UtffzfG64"
+            }
+          ]
+        },
+        {
+          id: "6",
+          title: "I'm not her",
+          description: "Clara Mae",
+          imageId: "6",
+          imageUrl: "https://i.ytimg.com/vi/UOb172nPB2E/maxresdefault.jpg",
+          level: ["US-UK", "Medium"],
+          views: "3,532,659",
+          rating: 4.5,
+          ratingsCount: 80,
+          youtube_playlist_id: "iUNxOzxPEVI",
+          parts: [
+            {
+              id: "6",
+              title: "Thông tin chi tiết",
+              youtube_id: "iUNxOzxPEVI"
+            }
+          ]
+        },
+        {
+          id: "7",
+          title: "Pursuing The Happiness(행복을 찾아서)",
+          description: "LeeSSang ft Jo Hyuna of Urban Zakapa",
+          imageId: "7",
+          imageUrl: "https://i.ytimg.com/vi/le0GI8FtB2o/maxresdefault.jpg",
+          level: ["K-Pop", "Difficult"],
+          views: "4,178,690",
+          rating: 3.5,
+          ratingsCount: 50,
+          youtube_playlist_id: "le0GI8FtB2o",
+          parts: [
+            {
+              id: "7",
+              title: "Thông tin chi tiết",
+              youtube_id: "le0GI8FtB2o"
+            }
+          ]
+        }
+      ]
+    };
   },
   methods: {
-    goToBook(id){
-      this.$router.push({name: 'book', params: {id:id}})
+    goToBook(id) {
+      this.$router.push({ name: "book", params: { id: id } });
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
-.bookTitle { position: absolute; color: white; font-size: 2em; padding: 15px; background-color: rgba(0,0,0,0.5); width: 100%; text-align: center; cursor: pointer;}
+.bookTitle {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
 </style>

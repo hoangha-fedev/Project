@@ -19,7 +19,7 @@
               <div class="headline">{{book.title}}</div>
               <div class="body-2">{{book.description}}</div>
               <v-divider class="white"></v-divider>
-              <div class="body-2">level: {{getBookLevel(book.level)}}, {{book.parts.length}} Parts</div>
+              <div class="body-2">{{book.views}} lượt xem , level: {{getBookLevel(book.level)}}, {{book.parts.length}} Parts</div>
             </div>
           </v-card-title>
           <v-card-actions>
