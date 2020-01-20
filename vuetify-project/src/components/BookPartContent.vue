@@ -9,31 +9,43 @@
       <youtube :video-id="part.youtube_id"></youtube>
     </div>
     <div class="mt-2">
-        <v-tabs v-model="tabMode" color="accent" dark fixed-tabs slider-color="success">
-            <v-tab :key="'tabs'" ripple>
-                Tab 1
-            </v-tab>
-            <v-tab :key="'tabs-2'" ripple>
-                Tab 2
-            </v-tab>
-            <v-tab-item :key="'tabs'">
-                <div v-for="(paragraph, i) in part.content" :key="`parl${i}`">
-                    <span>&nbsp;&nbsp;</span>
-                    <span v-for="(sentence, j) in paragraph.sentences" :key="`parl${i}senl${j}`">
-                        <span>
-                            {{sentence.origText}}
-                        </span>
-                        <!-- <v-icon size="18" @click.prevent="toggleVisibility(i, j)">help</v-icon>
-                        <span v-if="getVisibilityFlag(i, j).value" class="success--text" style="font-weight:bold">
-                            {{sentence.transText}}
-                        </span> -->
-                    </span>
-                </div>
-            </v-tab-item>
-            <v-tab-item :key="'tabs-2'">
-                kEY TAB2
-            </v-tab-item>
-        </v-tabs>
+      <v-slider v-model="fontSize" :label="`font (${fontSize})`" step="1" max="30" min="10" tick-size="5"></v-slider>
+      <v-tabs v-model="tabMode" color="accent" dark fixed-tabs slider-color="success">
+        <v-tab :key="'tabs'" ripple>Tab 1</v-tab>
+        <v-tab :key="'tabs-2'" ripple>Tab 2</v-tab>
+        <v-tab-item :key="'tabs'">
+          <div v-for="(paragraph, i) in part.content" :key="`par1${i}`">
+            <span>&nbsp;&nbsp;</span>
+            <span v-for="(sentence, y) in paragraph.sentences" :key="`par1${i}sen1${y}`" :style="textStyle">
+              <span>{{sentence.origText}}</span>
+              <v-icon :size="fontSize" @click.prevent="toggleVisibility(i, y)">help</v-icon>
+              <span
+                v-if="getVisibilityFlag(i, y).value"
+                class="success--text"
+                style="font-weight:bold"
+              >{{sentence.transText}}</span>
+            </span>
+          </div>
+        </v-tab-item>
+        <v-tab-item :key="'tabs-2'">
+          <v-container>
+            <v-layout row wrap v-for="(paragraph, i) in part.content" :key="`par2${i}`">
+              <v-flex xs6>
+                <span>&nbsp;&nbsp;</span>
+                <span v-for="(sentence, y) in paragraph.sentences" :key="`par2${i}sen2${y}_orig`" :style="textStyle">
+                  <span>{{sentence.origText}}</span>
+                </span>
+              </v-flex>
+              <v-flex xs6>
+                <span>&nbsp;&nbsp;</span>
+                <span v-for="(sentence, y) in paragraph.sentences" :key="`par2${i}sen2${y}_trans`" :style="textStyle">
+                  <span>{{sentence.transText}}</span>
+                </span>
+              </v-flex>
+            </v-layout>
+          </v-container>
+        </v-tab-item>
+      </v-tabs>
     </div>
   </v-card>
 </template>
@@ -44,32 +56,38 @@ export default {
     part: {
       type: Object,
       required: true
+    }
+  },
+  data() {
+    return {
+      tabMode: "tabs",
+      visibilityKeys: [],
+      fontSize: 18
+    };
+  },
+  computed:{
+    textStyle(){
+      return {fontSize: `${this.fontSize}px`}
+    }
+  },
+  methods: {
+    getVisibilityFlag(i, y) {
+      return this.visibilityKeys.find(k => k.key == `${i}${y}`);
     },
+    toggleVisibility(i, y) {
+      let flag = this.getVisibilityFlag(i, y);
+      flag.value = !flag.value;
+    }
   },
-  data(){
-      return {
-          tabMode: 'tabs',
-          visibilityKeys: []
+  created() {
+    for (var i = 0; i < this.part.content.length; i++) {
+      for (var y = 0; y < this.part.content[i].sentences.length; y++) {
+        this.visibilityKeys.push({
+          key: `${i}${y}`,
+          value: false
+        });
       }
-  },
-  methods:{
-    //   getVisibilityFlag(i, j){
-    //       return this.visibilityKeys.find(k => k.key == `${i}${j}`)
-    //   },
-    //   toggleVisibility(i, j){
-    //       let flag = this.getVisibilityFlag(i, j)
-    //       flag.value == !flag.value
-    //   }
-  },
-  created(){
-    //   for(var i=0; i<this.part.content.length; i++) {
-    //       for(var j=0; j<this.part.content[i]; j++) {
-    //           this.visibilityKeys.push({
-    //               key: `${i}${j}`,
-    //               value: false
-    //           })
-    //       }
-    //   }
+    }
   }
 };
 </script>

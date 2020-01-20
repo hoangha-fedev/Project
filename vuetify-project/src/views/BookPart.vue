@@ -5,7 +5,7 @@
                 <book-part-content :part="part"></book-part-content>
             </v-flex>
             <v-flex xs12 sm10 offset-sm1>
-                <!-- <book-part-words :words="part.words"></book-part-words> -->
+                <book-part-words :words="part.words"></book-part-words>
             </v-flex>
         </v-layout>
     </v-container>
@@ -13,6 +13,7 @@
 
 <script>
 import BookPartContent from '../components/BookPartContent'
+import BookPartWords from '../components/BookPartWords'
 
 export default {
     props:{
@@ -32,7 +33,8 @@ export default {
         }
     },
     components: {
-        BookPartContent
+        BookPartContent,
+        BookPartWords
     },
 }
 </script>
