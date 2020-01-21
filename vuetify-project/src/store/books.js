@@ -253,8 +253,76 @@ export default {
                     {
                         sentences: [
                             {
-                                origText: "",
-                                transText: ""
+                                origText: "Anh đang trong từng ngày nhìn em đổi thay",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Anh chưa bao giờ nghĩ là nhanh đến vậy",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Có những nỗi buồn ... từ ở đâu chẳng một ai muốn nhưng tại sao",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Một người nơi nao tự nhiên cướp lấy em đi bằng cách nào",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Duyên nợ mình trả hết cho nhau thật vậy sao",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Giọt nước mắt anh rơi hỏi em ơi tại sao ...",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vì yêu , mà anh thấu hiểu , dù em có là gì em chẳng có gì vẫn yêu",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Trả lại em , của anh lúc đầu , anh muốn bên em đến lúc em già vẫn là của anh",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vậy Tại sao , tình yêu mà anh đã trao , rồi nỡ còn đi lấy lại trao ai chẳng an phận ở lại",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chẳng lẽ , là anh nhìn sai mất rồi , thôi để em lại anh sẽ không phiền làm em nghĩ thêm",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Đến lúc em có tất cả quay lại lại chẳng có anh",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Người còn yêu sẽ chẳng đắn đo",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Hết yêu thì tìm mọi lý do",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Cạnh một ai mà chẳng biết sai",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Là tự thiêu đi lòng nhẫn nại",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Tình yêu ... sẽ có những lúc rất sâu ... đậm",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Là lúc dễ mắc sai lầm",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Lạ thay ... đôi khi ra đi chỉ vì ... quá tốt",
+                                transText: "Hiện tại chưa có bản dịch"
                             }
                         ]
                     }
@@ -271,9 +339,93 @@ export default {
                     {
                         sentences: [
                             {
-                                origText: "",
-                                transText: ""
-                            }
+                                origText: "Em à anh đã biết",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Là tình yêu này chẳng cần thiết",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Em cần nơi bình yên",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chứ không phải anh kế bên",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Em đừng giữ lại anh",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Khi trái tim vụn vỡ chưa lành",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Điều ban nãy anh vừa thấy là gì đây?!",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Em đã vừa ghì hôn ai cận kề bên tai tựa đầu lên vai",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Thấy em đang đắm say chắc em chẳng hay đôi mình chưa chia tay",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Đôi khi tình yêu sẽ hóa nhạt nhòa khi vô tình một trong hai",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Cuốn lấy sai trái đến khi vỡ lỡ cả hai hủy hoại tương lai",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chẳng cần một ai nữa , bất kể ai cũng dư thừa",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Một mình đứng khóc giữa mưa , nén cơn đau vào từng hơi thở",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Một người mình chẳng ngưng nhớ",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Nhưng lại quay bước giả vờ",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Bảo rằng mình cũng như em ... hết thương cạn nhớ",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Sự thật là chỉ mỗi em ... hết thương cạn nhớ!",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vì lỡ thấy em với người ta",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Sao mà lại dễ quên em à ... với tất cả gì đang xảy ra",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chỉ là còn nhân duyên ... nên lòng vẫn quyến luyến ...",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Mai chia cắt ... muốn cũng chẳng thấy mặt ...",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Sự thật là chỉ một người giữ một người buông ...",
+                                transText: "Hiện tại chưa có bản dịch"
+							}
                         ]
                     }
                 ],
@@ -289,9 +441,77 @@ export default {
                     {
                         sentences: [
                             {
-                                origText: "",
-                                transText: ""
-                            }
+                                origText: "Người em bấy lâu yêu là ai?",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Em cũng chưa hiểu được, liệu đáng để mình thương?",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Nhìn trời cao em cứ ước ao",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Người con gái ấy chưa xuất hiện, em hạnh phúc biết bao...",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Một lòng vun đắp một người, em chỉ nhận lấy rã rời...",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vậy là em với, người mà anh cưới, có khi khác nhau rồi.",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Trong tình yêu, khó nhất vẫn là chữ tin",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Nên lúc thấy anh bên cạnh ai làm sao mà em quên.",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Có mấy ai nhìn lại khi yêu mình chịu hy sinh ít nhiều?",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chẳng biết đúng hay là sai, chỉ hiểu một điều: quá yêu nên nhẫn chịu",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vậy người cạnh anh là ai? Em là ai?",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Tại sao hai người lại trông như chẳng hề biết sai?",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Phải chẳng vì, anh cứ nghĩ em ngây dại?",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chính lúc anh để cô ta xen vào cuộc sống giữa chúng ta",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Đã quá một lần em nghĩ đến làm chuyện chẳng nên với bản thân.",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Rồi nhận ra bao ngày qua níu anh quá, làm anh khó chịu mà vung tay để em cách xa",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Ngốc như em, chẳng ai hiểu, chẳng ai chịu.",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Giá như cô ta đừng đến, sẽ nguyên vẹn...",
+                                transText: "Hiện tại chưa có bản dịch"
+							}
                         ]
                     }
                 ],
@@ -307,9 +527,93 @@ export default {
                     {
                         sentences: [
                             {
-                                origText: "",
-                                transText: ""
-                            }
+                                origText: "Chỉ có cách anh lùi bước",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Để em thấy đường đi phía trước",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vì anh cứ bên em là bão với giông hoài",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vậy thì tại sao không dừng lại",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Khổ vẫn ở cạnh nhau",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Tình yêu tốt chẳng như vậy đâu",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vậy anh xin một lần làm trái ý mình",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Xa em là anh quyết định",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chỉ tại mình cãi số, yêu nhầm chỗ",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Ngoan cố dẫu bao giày vò",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chẳng phải người sẽ ở cạnh nhau suốt đời",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Lìa xa nhau là thuận theo ý trời",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Chỉ nghĩ tới ngày ta cách rời",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Là anh thấy tâm can rối bời",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Mà anh phải làm thôi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Để trái tim em nghỉ ngơi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Thời gian qua chắc em cũng đã mệt rồi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Vậy em ơi, ngày ta cách rời",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Em phải hứa với anh một lời",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Là em sẽ tìm nơi",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Mà chỉ có mỗi niềm vui",
+                                transText: "Hiện tại chưa có bản dịch"
+							},
+							{
+                                origText: "Thời gian qua, chắc em cũng đã mệt rồi",
+                                transText: "Hiện tại chưa có bản dịch"
+							}
                         ]
                     }
                 ]
@@ -324,9 +628,93 @@ export default {
                     {
                         sentences: [
                             {
-                                origText: "",
-                                transText: ""
-                            }
+                                origText: "Been two years, our memories are blurred",
+                                transText: "Hai năm qua, kỷ niệm giữa đôi ta cũng dần mờ nhạt"
+							},
+							{
+                                origText: "Hadn't heard your voice, no, not a word",
+                                transText: "Chăng nghe được giọng anh, dù chỉ là một từ"
+							},
+							{
+                                origText: "But still they, they talk about the things we were",
+                                transText: "Nhưng mọi người vẫn kể nhau nghe về chuyện của hai ta"
+							},
+							{
+                                origText: "They talk about us",
+                                transText: "Mọi việc về đôi ta"
+							},
+							{
+                                origText: "But I don't know the things that you have heard",
+                                transText: "Tôi thì lại chẳng biết anh đã nghe được những gì"
+							},
+							{
+                                origText: "She's dancing on your feet",
+                                transText: "Cô ấy đang nhảy múa trên đôi chân anh"
+							},
+							{
+                                origText: "With our song on repeat",
+                                transText: "Với bài hát mà chúng mình vẫn hay nghe"
+							},
+							{
+                                origText: "She painted every role of us",
+                                transText: "Cô ấy vẽ lại hình ảnh mà chúng ta đã từng"
+							},
+							{
+                                origText: "She's taking off her clothes",
+                                transText: "Cô ấy cởi sạch từng món quần áo"
+							},
+							{
+                                origText: "In the bed you kept me warm",
+                                transText: "Ngã trên chiếc giường mà anh đã từng ôm ấp tôi"
+							},
+							{
+                                origText: "Heard she's everything I never was",
+                                transText: "Nghe nói cô ấy có tất cả mọi thứ mà tôi chưa từng có từ anh"
+							},
+							{
+                                origText: "No, I'm not her, no, never will",
+                                transText: "Đúng thế, tôi không phải là cô ấy"
+							},
+							{
+                                origText: "Never gonna move like her, move like",
+                                transText: "Không bao giờ bước chân dịu dàng như cô ấy"
+							},
+							{
+                                origText: "I'm not her, no, never will",
+                                transText: "Tôi nào phải là cô ấy"
+							},
+							{
+                                origText: "Never gonna look like her, be like",
+                                transText: "Chẳng lúc nào có vẻ ngoài xinh đẹp như cô ấy"
+							},
+							{
+                                origText: "I'm not her, I'm not her (no)",
+                                transText: "Vì tôi có phải cô ấy đâu"
+							},
+							{
+                                origText: "At least that's what I've heard",
+                                transText: "Ít nhất đó là những gì tôi nghe được"
+							},
+							{
+                                origText: "Me, myself, just stumble under glue",
+                                transText: "Bản thân tôi đã sai khi cố hàn gắn mọi việc"
+							},
+							{
+                                origText: "The thing I thought was missing wasn't you",
+                                transText: "Thứ mà tôi nghĩ mình đã đánh mất chắc chắn không phải anh"
+							},
+							{
+                                origText: "And now I'm no longer scared to meet the night",
+                                transText: "Và giờ thì bóng đêm chẳng còn là nỗi sợ của tôi nữa"
+							},
+							{
+                                origText: "I'm doing alright",
+                                transText: "Mọi việc tôi làm thật đúng đắn"
+							},
+							{
+                                origText: "Me, myself, we started something new",
+                                transText: "Thân xác tôi, linh hồn tôi, chúng tôi đã bắt đầu một cuộc sống mới."
+							}
                         ]
                     }
                 ],
